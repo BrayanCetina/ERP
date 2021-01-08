@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-9 mx-auto">
-        <h1 class="mb-5">ERP-NOVENO</h1>
+        <h1 class="mb-5">Rastree Su Envío</h1>
       </div>
       <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
         <form>
@@ -29,10 +29,10 @@
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
           <div class="features-icons-icon d-flex">
             <a class="m-auto"  href="{{ route('pedimentosVista') }}">
-              <i class="fas fa-handshake m-auto btn" style="color: #ff922b;"></i>
+              <i class="fa fa-ship m-auto btn" style="color: #ff922b;"></i>
             </a>
           </div>
-          <h3>CRM</h3>
+          <h3>Pedimentos</h3>
           <p class="lead mb-0"></p>
         </div>
       </div>
@@ -40,10 +40,10 @@
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
           <div class="features-icons-icon d-flex" >
             <a class="m-auto"  href="{{ route('facturasVista') }}">
-              <i class="fas fa-file-signature m-auto btn" style="color: #ff922b;"></i>
+              <i class="fa fa-coins m-auto btn" style="color: #ff922b;"></i>
             </a>
           </div>
-          <h3>Pedidos</h3>
+          <h3>Facturación</h3>
           <p class="lead mb-0"></p>
         </div>
       </div>
@@ -51,57 +51,35 @@
         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
           <div class="features-icons-icon d-flex">
             <a class="m-auto"  href="{{ route('documentosVista') }}">
-              <i class="fas fa-warehouse m-auto btn" style="color: #ff922b;"></i>
+              <i class="fa fa-folder m-auto btn" style="color: #ff922b;"></i>
             </a>
           </div>
-          <h3>MRP</h3>
+          <h3>Documentación</h3>
           <p class="lead mb-0" ></p>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-          <div class="features-icons-icon d-flex">
-            <a class="m-auto"  href="{{ route('documentosVista') }}">
-              <i class="fas fa-boxes m-auto btn" style="color: #ff922b;"></i>
-            </a>
-          </div>
-          <h3>Productos</h3>
-          <p class="lead mb-0" ></p>
-        </div>
-        </div>
-        <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-          <div class="features-icons-icon d-flex">
-            <a class="m-auto"  href="{{ route('documentosVista') }}">
-              <i class="fas fa-chart-bar m-auto btn" style="color: #ff922b;"></i>
-         
-            </a>
-          </div>
-          <h3>Ofertas</h3>
-          <p class="lead mb-0" ></p>
-        </div>
-      </div>
+    </div>
   </div>
 </section>
 <!-- Image Showcases -->
 <section class="showcase">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/img-1.jpg');"></div>
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Nostros</h2>
+        <h2>Agencia Aduanal</h2>
         <p class="lead mb-0">Experiencia en el manejo de todos los sectores y régimenes aduaneros.</p>
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/img-2.jpg');"></div>
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
       <div class="col-lg-6 my-auto showcase-text">
         <h2>Agencia Consignataria</h2>
         <p class="lead mb-0">Contamos con servicio de Agenciamiento Marítimo de embarcaciones.</p>
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/img-3.jpg');"></div>
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2>Logística</h2>
         <p class="lead mb-0">Contamos con alianzas comerciales con navieras, empresas de carga aérea y transporte terrestre.</p>
