@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'svrubuntu',
+    'default' => 'mysqlconection',
 
     /*
     |--------------------------------------------------------------------------
@@ -61,6 +61,17 @@ return [
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
+        ],
+
+        'mysqlconection' => [
+            'driver' => 'mysql',
+            'host'           => 'localhost',
+            'database'       => 'erp-noveno',
+            'username'       => 'root',
+            'password'       => '',
+            'charset'        => 'utf8',
+            'prefix'         => '',
+            'prefix_indexes' => true,
         ],
 
         'pgsql' => [
