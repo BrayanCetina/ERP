@@ -125,7 +125,7 @@
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/img-2.jpg');"></div>
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/img-4.jpg');"></div>
       <div class="col-lg-6 my-auto showcase-text">
         <h2>Productos</h2>
         <br>
@@ -136,7 +136,7 @@
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/img-3.jpg');"></div>
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/img-5.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2>Ofertas</h2>
         <br>
