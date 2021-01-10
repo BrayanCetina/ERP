@@ -8,7 +8,7 @@
         <h1 class="mb-5">ERP-NOVENO</h1>
       </div>
       <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-        <form>
+       <!-- <form>
           <div class="form-row">
             <div class="col-12 col-md-9 mb-2 mb-md-0">
               <input type="email" class="form-control form-control-lg" placeholder="Ingrese numero de rastreo...">
@@ -17,7 +17,7 @@
               <a class="buttonV btn btn-block btn-lg" id="buscarNumero" href="{{ route('rastreoVista') }}">Buscar</a>
             </div>
           </div>
-        </form>
+        </form>-->
       </div>
     </div>
   </div>
@@ -89,41 +89,71 @@
     <div class="row no-gutters">
       <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/img-1.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Nostros</h2>
-        <p class="lead mb-0">Experiencia en el manejo de todos los sectores y régimenes aduaneros.</p>
+        <h2>CRM</h2>
+        <br>
+        <ul>
+          <li>Permitir la relación con los clientes.</li>
+          <li>Mejorar la relación comercial.</li>
+          <li>Establecer estrategias de mercado (Producción o Recursos Humanos).</li>
+        </ul>
+        
+
       </div>
     </div>
     <div class="row no-gutters">
       <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/img-2.jpg');"></div>
       <div class="col-lg-6 my-auto showcase-text">
-        <h2>Agencia Consignataria</h2>
-        <p class="lead mb-0">Contamos con servicio de Agenciamiento Marítimo de embarcaciones.</p>
+        <h2>Pedidos</h2>
+        <br>
+        <ul>
+        <li>Creación de pedidos a partir de la oferta.</li>
+        <li>Cancelaciones de pedidos servidos parcialmente a criterio del usuario sin pérdida de información.</li>
+        <li>Gestión de versiones o modificaciones de pedido.</li>
+        </ul>
       </div>
     </div>
     <div class="row no-gutters">
       <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/img-3.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Logística</h2>
-        <p class="lead mb-0">Contamos con alianzas comerciales con navieras, empresas de carga aérea y transporte terrestre.</p>
+        <h2>MRP</h2>
+        <br>
+        <ul>
+        <li>Disminuir los inventarios de materias primas y productos terminados.</li>
+        <li>Incrementar la eficiencia del proceso.</li>
+        <li>Establecer alertas. Por ejemplo, cuando el sistema detecta la terminación imprevista de las existencias.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/img-2.jpg');"></div>
+      <div class="col-lg-6 my-auto showcase-text">
+        <h2>Productos</h2>
+        <br>
+        <ul>
+        <li>Ver la información de los productos.</li>
+        <li>Modificar la información de los productos.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/img-3.jpg');"></div>
+      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <h2>Ofertas</h2>
+        <br>
+        <ul>
+        <li>Establecer tarifas de los precios.</li>
+        <li>Proyección de stocks previstos en fechas futuras, de acuerdo con órdenes de fabricación o pedidos a proveedor para calcular plazos de entrega.</li>
+        <li>Permitir hasta 3 descuentos en cascada.</li>
+        </ul>
       </div>
     </div>
   </div>
 </section>
-<!-- Testimonials -->
-<section class="testimonials text-center bg-light">
-</section>
-<!-- Call to Action -->
-<section class="call-to-action text-white text-center">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-      </div>
-    </div>
-  </div>
-</section>
+
+
 <!-- Footer -->
 @include('layouts.footerlayout')
+<div class="overlay"></div>
 <!-- Bootstrap core JavaScript -->
 <link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 <!-- Custom fonts for this template -->

@@ -43,8 +43,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    /*padding-top: 12rem;
+    padding-bottom: 12rem;*/
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -214,12 +214,12 @@ header.masthead4 h1 {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 footer.footer {
   padding-top: 4rem;
-  padding-bottom: 4rem;
+ /* padding-bottom: 4rem;*/
 }
 
 .buttonV {
