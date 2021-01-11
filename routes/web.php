@@ -24,3 +24,5 @@ Route::get('/pedimentosVista', 'HomeController@pedimentosVista')->name('pediment
 Route::get('/facturasVista', 'HomeController@facturacionVista')->name('facturasVista');
 Route::get('/rastreoVista', 'HomeController@rastreoVista')->name('rastreoVista');
 Route::get('/ofertasVista', 'HomeController@ofertasVista')->name('ofertasVista');
+Route::get('/ofertasVistaTable', 'ofertasController@ofertasVistaTable')->name('ofertasVistaTable');
+Route::get('/ofertasVistaAgregar', 'ofertasController@ofertasVistaAgregar')->name('ofertasVistaAgregar');

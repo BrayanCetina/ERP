@@ -27,3 +27,8 @@
     </form>
   </nav>
 </div>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+<script src = "https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js" defer ></script>
+<script src = "https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js" defer ></script>
