@@ -21,9 +21,9 @@
 
     <div class="navbar-nav mr-auto">
     </div>
-    <form class="form-inline mt-2 mt-md-0" style="margin:10px">
+   <!-- <form class="form-inline mt-2 mt-md-0" style="margin:10px">
         <input class="form-control mr-sm-2" type="text" placeholder="Numero de rastreo" aria-label="Buscar">
         <button class="buttonV btn my-2 my-sm-0" type="submit" >Buscar</button>
-    </form>
+    </form>-->
   </nav>
 </div>
