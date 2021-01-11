@@ -3,7 +3,7 @@
     <a class="nav-link" href="{{ route('home') }}" style="color: #000;">Inicio
       <i class="fa fa-home m-auto btn" style="color: #ff922b;"></i>
     </a>
-    <a class="nav-link" href="{{ route('clientesVista') }}" style="color: #000;">CRM
+    <a class="nav-link" href="{{ route('pedimentosVista') }}" style="color: #000;">CRM
       <i class="fas fa-handshake m-auto btn" style="color: #ff922b;"></i>
     </a>
     <a class="nav-link" href="{{ route('pedidosVista') }}" style="color: #000;">Pedidos
