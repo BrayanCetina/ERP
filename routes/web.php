@@ -23,3 +23,6 @@ Route::get('/documentosVista', 'HomeController@documentosVista')->name('document
 Route::get('/pedimentosVista', 'HomeController@pedimentosVista')->name('pedimentosVista');
 Route::get('/facturasVista', 'HomeController@facturacionVista')->name('facturasVista');
 Route::get('/rastreoVista', 'HomeController@rastreoVista')->name('rastreoVista');
+
+Route::get('/clientesVista', 'HomeController@clientesVista')->name('clientesVista');
+Route::resource('clientes','ClientesController');
