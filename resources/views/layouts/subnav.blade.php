@@ -6,7 +6,7 @@
     <a class="nav-link" href="{{ route('pedimentosVista') }}" style="color: #000;">CRM
       <i class="fas fa-handshake m-auto btn" style="color: #ff922b;"></i>
     </a>
-    <a class="nav-link" href="{{ route('facturasVista') }}" style="color: #000;">Pedidos
+    <a class="nav-link" href="{{ route('pedidosVista') }}" style="color: #000;">Pedidos
       <i class="fas fa-file-signature m-auto btn" style="color: #ff922b;"></i>
     </a>
     <a class="nav-link" href="{{ route('documentosVista') }}" style="color: #000;">MRP
