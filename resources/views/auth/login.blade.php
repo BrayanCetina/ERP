@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="container">
-	<div class="d-flex justify-content-center h-100">
+	<div class="d-flex justify-content-center h-100" style="margin-top:10%;">
 		<div class="card">
 			<div class="card-header">
 				<h3>Iniciar Sesión</h3>
@@ -45,7 +45,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-            <input placeholder="Contraseñá" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+            <input placeholder="Contraseña" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
             @error('password')
                 <span class="invalid-feedback" role="alert">
@@ -67,7 +67,7 @@
 				<div class="d-flex justify-content-center">
           @if (Route::has('password.request'))
               <a href="{{ route('password.request') }}">
-                  {{ __('Olvidaste tu contraseña??') }}
+                  {{ __('¿Olvidaste tu contraseña?') }}
               </a>
           @endif
 				</div>
