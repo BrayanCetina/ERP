@@ -3,7 +3,7 @@
     <a class="nav-link" href="{{ route('home') }}" style="color: #000;">Inicio
       <i class="fa fa-home m-auto btn" style="color: #ff922b;"></i>
     </a>
-    <a class="nav-link" href="{{ route('pedimentosVista') }}" style="color: #000;">CRM
+    <a class="nav-link" href="{{ route('clientesVista') }}" style="color: #000;">CRM
       <i class="fas fa-handshake m-auto btn" style="color: #ff922b;"></i>
     </a>
     <a class="nav-link" href="{{ route('pedidosVista') }}" style="color: #000;">Pedidos
@@ -15,7 +15,7 @@
     <a class="nav-link" href="{{ route('documentosVista') }}" style="color: #000;">Productos
       <i class="fas fa-boxes m-auto btn" style="color: #ff922b;"></i>
     </a>
-    <a class="nav-link" href="{{ route('documentosVista') }}" style="color: #000;">Ofertas
+    <a class="nav-link" href="{{ route('ofertasVista') }}" style="color: #000;">Ofertas
       <i class="fas fa-chart-bar m-auto btn" style="color: #ff922b;"></i>
     </a>
 
@@ -27,3 +27,8 @@
     </form>-->
   </nav>
 </div>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+<script src = "https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js" defer ></script>
+<script src = "https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js" defer ></script>
