@@ -25,6 +25,11 @@ Route::get('/pedimentosVista', 'HomeController@pedimentosVista')->name('pediment
 Route::get('/facturasVista', 'HomeController@facturacionVista')->name('facturasVista');
 Route::get('/rastreoVista', 'HomeController@rastreoVista')->name('rastreoVista');
 
+Route::get('/pedidos', 'PedidosController@pedidosVista')->name('pedidosVista');
+Route::post('/pedidos/agregar', 'PedidosController@store')->name('pedidos.store');
+Route::post('/pedidos/editar', 'PedidosController@edit')->name('pedidos.edit');
+
+
 Route::get('/ofertasVista', 'HomeController@ofertasVista')->name('ofertasVista');
 Route::get('/ofertasVistaTable', 'ofertasController@ofertasVistaTable')->name('ofertasVistaTable');
 Route::get('/ofertasVistaAgregar', 'ofertasController@ofertasVistaAgregar')->name('ofertasVistaAgregar');
@@ -35,4 +40,7 @@ Route::get('/mrptableproductos', 'MrpController@cargarTabla');
 Route::get('/comprobarproduct', 'MrpController@comprobarProductos');
 Route::delete('productodelete/{id_producto}', 'MrpController@destroy');
 
+
+Route::get('/clientesVista', 'HomeController@clientesVista')->name('clientesVista');
+Route::resource('clientes','ClientesController');
 

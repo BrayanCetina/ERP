@@ -28,7 +28,7 @@
       <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
           <div class="features-icons-icon d-flex">
-            <a class="m-auto"  href="{{ route('pedimentosVista') }}">
+            <a class="m-auto"  href="{{ route('clientesVista') }}">
               <i class="fas fa-handshake m-auto btn" style="color: #ff922b;"></i>
             </a>
           </div>
@@ -39,7 +39,7 @@
       <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
           <div class="features-icons-icon d-flex" >
-            <a class="m-auto"  href="{{ route('facturasVista') }}">
+            <a class="m-auto"  href="{{ route('pedidosVista') }}">
               <i class="fas fa-file-signature m-auto btn" style="color: #ff922b;"></i>
             </a>
           </div>
@@ -72,8 +72,9 @@
         <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
           <div class="features-icons-icon d-flex">
-            <a id="ofertapre" class="m-auto"  href="{{ route('ofertasVista') }}">
+            <a class="m-auto"  href="{{ route('ofertasVista') }}">
               <i class="fas fa-chart-bar m-auto btn" style="color: #ff922b;"></i>
+         
             </a>
           </div>
           <h3>Ofertas</h3>
@@ -95,7 +96,7 @@
           <li>Mejorar la relación comercial.</li>
           <li>Establecer estrategias de mercado (Producción o Recursos Humanos).</li>
         </ul>
-
+        
 
       </div>
     </div>

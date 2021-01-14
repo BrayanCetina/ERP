@@ -39,7 +39,9 @@ class HomeController extends Controller
     public function rastreoVista(){
       return view('rastreo/rastreo');
     }
-
+    public function clientesVista(){
+      return \Redirect::route('clientes.index');
+    }
     public function ofertasVista(){
       return view('ofertas/ofertas');
   }
