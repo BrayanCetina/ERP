@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('MAIL_MAILER', 'smtp'),
+    'default' => 'gmail',
 
     /*
     |--------------------------------------------------------------------------
@@ -36,12 +36,21 @@ return [
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
-            'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+            'host' => env('MAIL_HOST', 'smtp.gmail.com'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => env('MAIL_USERNAME'),
-            'password' => env('MAIL_PASSWORD'),
+            'username' => env('heladoscampanita386@gmail.com'),
+            'password' => env('xqbupntpuqwxnuvc'),
         ],
+
+      'gmail' => [
+        'transport' => 'smtp',
+        'host' => 'smtp.gmail.com',
+        'port' => 465,
+        'encryption' => 'ssl',
+        'username' => 'heladoscampanita386@gmail.com',
+        'password' => 'xqbupntpuqwxnuvc',
+    ],
 
         'ses' => [
             'transport' => 'ses',
@@ -74,8 +83,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'heladoscampanita386@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'ERP-NOVENO'),
     ],
 
     /*
