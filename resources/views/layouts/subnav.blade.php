@@ -9,8 +9,8 @@
     <a class="nav-link" href="{{ route('pedidosVista') }}" style="color: #000;">Pedidos
       <i class="fas fa-file-signature m-auto btn" style="color: #ff922b;"></i>
     </a>
-    <a class="nav-link" href="{{ route('documentosVista') }}" style="color: #000;">MRP
-      <i class="fas fa-warehouse m-auto btn" style="color: #ff922b;"></i>
+    <a class="nav-link" href="{{ route('mrpIndex') }}" style="color: #000;">MRP
+      <i  id="btnmrpindex" class="fas fa-warehouse m-auto btn" style="color: #ff922b;"></i>
     </a>
     <a class="nav-link" href="{{ route('documentosVista') }}" style="color: #000;">Productos
       <i class="fas fa-boxes m-auto btn" style="color: #ff922b;"></i>

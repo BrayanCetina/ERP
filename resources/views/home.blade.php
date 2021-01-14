@@ -50,8 +50,8 @@
       <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
           <div class="features-icons-icon d-flex">
-            <a class="m-auto"  href="{{ route('documentosVista') }}">
-              <i class="fas fa-warehouse m-auto btn" style="color: #ff922b;"></i>
+            <a class="m-auto"  href="{{ route('mrpIndex') }}">
+              <i  id="btnmrpindex" class="fas fa-warehouse m-auto btn" style="color: #ff922b;"></i>
             </a>
           </div>
           <h3>MRP</h3>

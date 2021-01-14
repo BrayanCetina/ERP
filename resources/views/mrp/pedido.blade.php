@@ -2,7 +2,7 @@
 @section('content')
 @include('layouts.subnav')
 @include('mrp.materiap')
-<header class="masthead5 text-white text-center">
+<header class="masthead6 text-white text-center">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <div class="overlay"></div>
   <div class="container">
