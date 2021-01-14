@@ -39,7 +39,16 @@ class HomeController extends Controller
     public function rastreoVista(){
       return view('rastreo/rastreo');
     }
+
     public function ofertasVista(){
       return view('ofertas/ofertas');
+  }
+    public function mrpIndex(){
+      return view('mrp.index');
+
+    }
+    public function mrpPedido(){
+      return view('mrp.pedido');
+
     }
 }

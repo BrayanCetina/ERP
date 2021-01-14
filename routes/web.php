@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +24,15 @@ Route::get('/documentosVista', 'HomeController@documentosVista')->name('document
 Route::get('/pedimentosVista', 'HomeController@pedimentosVista')->name('pedimentosVista');
 Route::get('/facturasVista', 'HomeController@facturacionVista')->name('facturasVista');
 Route::get('/rastreoVista', 'HomeController@rastreoVista')->name('rastreoVista');
+
 Route::get('/ofertasVista', 'HomeController@ofertasVista')->name('ofertasVista');
 Route::get('/ofertasVistaTable', 'ofertasController@ofertasVistaTable')->name('ofertasVistaTable');
 Route::get('/ofertasVistaAgregar', 'ofertasController@ofertasVistaAgregar')->name('ofertasVistaAgregar');
+
+Route::get('/mrpIndex', 'HomeController@mrpIndex')->name('mrpIndex');
+Route::get('/mrpPedido', 'HomeController@mrpPedido')->name('mrpPedido');
+Route::get('/mrptableproductos', 'MrpController@cargarTabla');
+Route::get('/comprobarproduct', 'MrpController@comprobarProductos');
+Route::delete('productodelete/{id_producto}', 'MrpController@destroy');
+
+
