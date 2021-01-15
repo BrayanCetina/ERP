@@ -12,9 +12,7 @@
     <a class="nav-link" href="{{ route('mrpIndex') }}" style="color: #000;">MRP
       <i  id="btnmrpindex" class="fas fa-warehouse m-auto btn" style="color: #ff922b;"></i>
     </a>
-    <a class="nav-link" href="{{ route('documentosVista') }}" style="color: #000;">Productos
-      <i class="fas fa-boxes m-auto btn" style="color: #ff922b;"></i>
-    </a>
+   
     <a class="nav-link" href="{{ route('ofertasVista') }}" style="color: #000;">Ofertas
       <i class="fas fa-chart-bar m-auto btn" style="color: #ff922b;"></i>
     </a>
