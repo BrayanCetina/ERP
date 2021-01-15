@@ -3,7 +3,7 @@
     <div class="modal-content">
       <input type="hidden" name="_token" value="{{ csrf_token() }}"><!--proteccion PORQUE SE HARAN CAMBIOS EN BD-->
       <div class="modal-header"> 
-        <h1>NUEVA METRIA PRIMA</h1>      
+        <h1>NUEVA MATERIA PRIMA</h1>      
       </div> 
       <div class="modal-body">
    
